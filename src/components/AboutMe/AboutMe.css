@@ -1,0 +1,52 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0  4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 90%;
+}
+
+.aboutMeSection {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex: 1;
+}
+
+.aboutMeImage img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.aboutSection {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutSection h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #4caf4f;
+}
+
+.aboutSection p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  max-width: 800px;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #444;
+  text-align: start;
+}

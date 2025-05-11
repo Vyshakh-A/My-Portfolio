@@ -1,0 +1,77 @@
+.skillsSection {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.skillsSection h2 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.skillGroup {
+  width: 100%;
+  max-width: 900px;
+  text-align: left;
+}
+
+.skillGroup h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.skillCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skillCard {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skillCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillName {
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+}
+
+.skillLevel {
+  font-size: 0.9rem;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+}
+
+.skillNote {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+  text-align: left;
+}

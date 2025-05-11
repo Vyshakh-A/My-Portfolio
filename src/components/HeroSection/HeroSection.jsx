@@ -35,7 +35,7 @@ const HeroSection = () => {
         <button className="projectButton" onClick={(e) => handleScrollToSection(e, "projects")}>View Project</button>
       </div>
       <div className="heroImage">
-        <img src="/heroSection.png" alt="Hero Section" />
+        <img src={`${import.meta.env.BASE_URL}heroSection.png`} alt="Hero Section" />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="aboutMeSection" id="aboutMe">
         <div className="aboutMe">
           <div className="aboutMeImage">
-            <img src="/aboutme.png" alt="Profile" />
+            <img src={`${import.meta.env.BASE_URL}aboutme.png`} alt="Profile" />
           </div>
           <div className="aboutSection">
             <h2>About Me</h2>

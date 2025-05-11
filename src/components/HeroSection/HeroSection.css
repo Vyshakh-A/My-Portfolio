@@ -5,6 +5,7 @@
     height: 100vh;
     background-color: #ffffff;
     margin-top: 0px;
+    padding: 40px;
 }
 
 .heroText{
@@ -59,4 +60,66 @@
   max-width: 500px;
   height: auto;
   border-radius: 50px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .heroSection {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .heroText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .heroText h1 {
+    font-size: 2.5rem;
+  }
+
+  .heroText h1 span {
+    font-size: 2.7rem;
+  }
+
+  .heroText p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .projectButton {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .heroImage img {
+    max-width: 300px;
+    margin-top: 2rem;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroText h1 {
+    font-size: 2rem;
+  }
+
+  .heroText h1 span {
+    font-size: 2.2rem;
+  }
+
+  .heroText p {
+    font-size: 0.9rem;
+  }
+
+  .projectButton {
+    font-size: 0.85rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .heroImage img {
+    max-width: 250px;
+    border-radius: 20px;
+  }
 }

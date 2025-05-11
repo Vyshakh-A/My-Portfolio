@@ -50,3 +50,44 @@
   color: #444;
   text-align: start;
 }
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .aboutMe {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .aboutMeImage {
+    padding: 1rem 0;
+  }
+
+  .aboutMeImage img {
+    width: 250px;
+    border-radius: 30px;
+  }
+
+  .aboutSection {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .aboutSection p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutMeImage img {
+    width: 180px;
+  }
+
+  .aboutSection h2 {
+    font-size: 2rem;
+  }
+
+  .aboutSection p {
+    font-size: 1rem;
+  }
+}

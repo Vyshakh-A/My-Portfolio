@@ -75,3 +75,22 @@
   line-height: 1.4;
   text-align: left;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .skillsSection {
+    padding: 2rem 1rem;
+  }
+
+  .skillsSection h2 {
+    font-size: 2rem;
+  }
+
+  .skillGroup h3 {
+    font-size: 1.3rem;
+  }
+
+  .skillCard {
+    flex: 1 1 100%;
+  }
+}

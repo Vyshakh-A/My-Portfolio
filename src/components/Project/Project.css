@@ -76,3 +76,27 @@
 .projectLink:hover {
   color: #4caf4f;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .projectSection {
+    padding: 2rem 1rem;
+  }
+
+  .projectSection h2 {
+    font-size: 2rem;
+  }
+
+  .projectCard {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+  .projectCard h3 {
+    font-size: 1.5rem;
+  }
+
+  .projectDesc {
+    font-size: 0.9rem;
+  }
+}
